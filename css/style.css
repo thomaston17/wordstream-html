@@ -1,0 +1,227 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, p {
+	padding: 10px 0px;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #2579B2;
+}
+
+hr {
+	 border: 0; 
+	 height: 1px; 
+	 background: #cbcbcb;
+}
+
+span {
+	font-weight: bold;
+	color: #E54515;
+}
+
+body, button {
+	font-family: sans-serif;
+}
+
+/*Header and Navigation*/
+
+#site-logo, nav, #login {
+	display: inline-block;
+}
+
+.site-title {
+	background: #1379BD;
+	padding: 15px;
+	color: white;
+}
+
+nav, #login {
+	vertical-align: top;
+}
+
+nav {
+	border-bottom: 1px solid #ECECEC;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+nav a {
+	color: #ACADA4;
+	text-decoration: none;
+	border-right: 1px solid #ACADA4;
+	padding-right: 10px;
+}
+
+/*Main Page Elements*/
+
+div.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div.left-col, div.right-col {
+	vertical-align: top;
+	display: inline-block;
+}
+
+div.left-col {
+	width: 225px;
+	padding: 25px;
+}
+
+div.right-col {
+	width: 620px;
+	padding: 10px 30px;
+}
+
+div.right-col ul {
+	padding-left: 15px;
+	list-style-type: square;
+}
+
+div.contact-wrapper {
+	margin-bottom: 10px;
+}
+
+div.contact-wrapper img {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+div.contact-wrapper-left, div.contact-wrapper-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.contact-wrapper-left {
+	width: 49%;
+}
+
+div.contact-wrapper-left h3, a {
+	display: inline-block;
+}
+
+div.contact-wrapper-right {
+	width: 36.3%;
+}
+
+div.contact-wrapper-right p, h1 {
+	padding: 0px;
+	text-align: center;
+}
+
+div.flag-wrapper {
+	border: 5px solid #88BBD6;
+	padding: 10px 5px 20px 5px;
+	margin: 5px auto;
+}
+
+div.flag-wrapper-sub {
+	display: inline-block;
+	width: 520px;
+}
+
+div.ad-wrapper {
+	width: 200px;
+	background: #DCDCDC;
+	margin: 15px auto;
+}
+
+div.ad-wrapper  h3 {
+	padding: 20px;
+}
+
+div.ad-wrapper  p {
+	padding: 0px 20px 20px 20px;
+}
+
+/*Buttons*/
+
+#login {
+	background: #2997DD;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#demo, #trial, #action {
+	width: 170px;
+	margin: 2px auto;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#demo {
+	background: #2997DD;
+}
+
+#trial {
+	background: #EF7700;
+}
+
+#action {
+	background: #9DBD05;
+}
+
+#grade {
+	background: #1F639C;
+	width: 170px;
+	margin: -10px 3px 5px 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/*Images*/
+
+#img-flag {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	height: 90px;
+	width: 64px;
+}
+
+#img-ruler {
+	margin-bottom: -5px;
+}
+
+#home {
+	margin-top: 7px;
+	height: 28px;
+	width: 31px;
+}
+
+#phone {
+	 height: 48px;
+	 width: 33px;
+}
+
+/*Normalize stylings*/
+
+div.centered {
+	text-align: center;
+}
