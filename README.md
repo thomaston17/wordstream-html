@@ -1,2 +1,2 @@
 # wordstream
-HTML/CSS build of Coding Dojo's Wordstream Assignment
+HTML/CSS build of Wordstream site.
